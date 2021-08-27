@@ -1,9 +1,36 @@
+/* google font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&family=Rubik:wght@300;500;600;700;800;900&display=swap');
+
+.fix{
+	overflow: hidden;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Rubik', sans-serif;
+}
 a{
 	transition: .3s;
 }
+.button {
+	color: rgba(255, 255, 255, 0.849);
+	font-weight: 600;
+	padding: 15px 40px;
+	border: 2px solid blue;
+	border-radius: 30px;
+	font-size: 15px;
+	text-decoration: none;
+}
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
 /* header-logo-area */
 .header-area {
-	background: rgb(221, 48, 48);
 	padding: 0 55px;
 }
 .logo a img {
@@ -16,7 +43,7 @@ a{
 	margin-left: 55px;
 }
 .hire-btn a {
-	color: white;
+	color: rgba(255, 255, 255, 0.849);
 	text-decoration: none;
 	padding: 12px 50px;
 	border: 2px solid white;
@@ -43,7 +70,7 @@ ul{
 }
 .main-menu ul li a {
 	text-decoration: none;
-	color: #f3d5d5;
+	color: rgba(255, 255, 255, 0.849);
 	font-weight: 700;
 	font-size: 16px;
 	padding: 39px 0px;
@@ -53,11 +80,28 @@ ul{
 
 /* banner-area */
 
-
-.banner-area{
-    background-size: cover;
+.single-slider{
+	height: 120vh;
+	background-size: cover;
 }
-
+.slider-icon a {
+	color: rgba(255, 255, 255, 0.849);
+	font-size: 30px;
+	margin: 0 10px;
+}
+.slider-inner h2 {
+	color: rgba(255, 255, 255, 0.849);
+	font-size: 75px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.slider-inner p {
+	color: rgba(255, 255, 255, 0.849);
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+.slider-inner a{}
 
 
 
