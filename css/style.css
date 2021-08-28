@@ -114,8 +114,40 @@ ul{
 
 /* slider-area-end */
 
+/* single-features start */
 
+.bg-primary {
+	border-radius: 10px;
+}
+.features-area {
+	margin-top: -150px;
+	position: relative;
+	z-index: 99;
+}
+.single-features {
+	padding: 50px 0;
+}
+.single-features i {
+	color: white;
+	font-size: 30px;
+	margin-bottom: 30px;
+	display: block;
+	/* margin-top: 25px; */
+}
+.single-features h3 {
+	color: white;
+	font-weight: 700;
+	font-size: 22px;
+	margin-bottom: 25px;
+}
+.single-features p {
+	color: #fff;
+	font-size: 14px;
+	line-height: 25px;
+	margin: 0;
+}
 
+/* single-features end */
 
 
 
