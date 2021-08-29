@@ -150,4 +150,48 @@ ul{
 /* single-features end */
 
 
+/* about-area-start */
+
+
+.about-area{
+	padding: 100px 100px;
+}
+.about-test {}
+.about-test p {
+	color: black;
+	margin-bottom: 45px;
+	line-height: 30px;
+	font-weight: 500;
+}
+.about-test h3 {
+	font-size: 39px;
+	color: red;
+	margin-bottom: 25px;
+	position: relative;
+	padding-bottom: 15px;
+}
+.about-test > h3::before{
+	position: absolute;
+	background: black;
+	content: "";
+	height: 2px;
+	width: 60px;
+	bottom: 0;
+}
+.about-test a {
+	color: black;
+}
+.about-img img {
+	width: 100%;
+}
+
+/* about-area-end  */
+
+
+
+
+
+
+
+
 
