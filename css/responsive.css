@@ -1,10 +1,19 @@
+/* Medium desktop :1201px. */
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+.main-menu ul li {
+	margin-left: 60px;
+}
+.single-brand a {
+	margin-left: 90px;
+}
+}
+
 /* Medium desktop :992px. */
 
-@media (min-width: 992px) and (max-width: 1200px)  {
-.container{width: 970px;}
-
+@media (min-width: 992px) and (max-width: 1999px)  {
 .main-menu ul li {
-	margin-left: 40px;
+	margin-left: 25px;
 }
 .hire-btn a {
 	padding: 7px 35px;
@@ -60,7 +69,7 @@
 /* Tablet desktop :768px. */
 
 @media (min-width: 768px) and (max-width: 991px)  {
-.container{width: 750px;}
+
 	
 	
 
@@ -71,7 +80,7 @@
 /* smaill mobile : 320px. */
 
 @media (max-width: 767px) {
-.container {width:300px}
+
 	
 		
 }
