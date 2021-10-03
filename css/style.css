@@ -560,6 +560,13 @@ ul{
 
 /* testimorial-area-end  */
 
+/* google-map-area-start */
+
+.google-map-area{}
+
+
+/* google-map-area-end */
+
 
 /* brand-area-start */
 
@@ -569,8 +576,8 @@ ul{
 .single-brand{
 	padding: 50px 0;
 }
-.single-brand a{
-	margin-left: 115px;
+.single-brand a img{
+	margin-left: 70px;
 }
 
 /* brand-area-end */
